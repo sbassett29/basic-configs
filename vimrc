@@ -23,3 +23,8 @@ set t_Co=256
 colo grb256
 
 syn on
+
+augroup twig_ft
+  au!
+  autocmd BufNewFile,BufRead *.html.twig   set syntax=html
+augroup END
