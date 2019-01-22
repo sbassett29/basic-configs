@@ -20,7 +20,7 @@ set noai
 set number
 set nobackup
 set t_Co=256
-colo grb256
+#colo grb256
 
 syn on
 
