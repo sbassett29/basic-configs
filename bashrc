@@ -6,7 +6,8 @@ if [ "$PS1" ]; then
         else
             stat='\033[01;31m(⩾﹏⩽)'; 
         fi  
-        comp_name=$(scutil --get ComputerName | sed 's/[^A-Z]//g')
+        comp_name=$(scutil --get ComputerName | sed 's/[^A-Z]//g') # macos
+        #comp_name=$(hostname) # debian etc
         mypwd=$(dirs +0)
         git_br=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
         if [[ -n "$git_br" ]]; then
