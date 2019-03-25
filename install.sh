@@ -1,4 +1,11 @@
 !/usr/bin/env bash
+################################################################################
+# Author: sbassett@wikimedia.org
+# License: Apache 2 <https://opensource.org/licenses/Apache-2.0>
+# Usage: chmod +x install.sh && ./install.sh
+################################################################################
+
+set -euo pipefail
 
 echo "WARNING: this will overwrite any existing config files!"
 echo -n "Continue [y] or [n]: "
