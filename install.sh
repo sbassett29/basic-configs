@@ -18,7 +18,7 @@ if [ "$cont" == "y" ]; then
     do  
         if [[ -f "$filename" ]]; then
             cp -f "$filename" ~/."$filename"
-            if [[ $filename == "bash*" ]]; then
+            if [[ "$filename" == "bash*" ]]; then
                 . ~/."$filename"
             fi  
             echo -e "Copied file: $filename to ~/.$filename\n"
