@@ -75,3 +75,19 @@ alias la='ls -A'
 alias l='ls -CF'
 alias vi="vim"
 alias c="/usr/bin/clear && printf '\e[3J'"
+
+# user functions kept out of .bashrc
+
+# for http proxy toggling on wmf prod servers
+hp() {
+    if [[ "$http_proxy" ]] || [[ "$https_proxy" ]]; then
+        unset http_proxy
+        unset https_proxy
+        echo -e "http(s)_proxy env vars unset!\n"
+    else
+        export http_proxy=http://webproxy.eqiad.wmnet:8080
+        export https_proxy=http://webproxy.eqiad.wmnet:8080
+        echo -e "http(s)_proxy env vars set to webproxy.eqiad values!\n"
+    fi  
+    printenv |grep "http"
+}
