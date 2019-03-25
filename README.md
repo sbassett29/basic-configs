@@ -10,8 +10,8 @@ Some basic unix-y config files that I like; some patchworked together, some hand
 **OR**
 
 1. Just curl the files you'd like, e.g. ```bashrc```:
-... 
-...```curl https://raw.githubusercontent.com/sbassett29/basic-configs/master/bashrc -o ~/.bashrc```
+   
+   ```curl https://raw.githubusercontent.com/sbassett29/basic-configs/master/bashrc -o ~/.bashrc```
 
 ## Authors
 
