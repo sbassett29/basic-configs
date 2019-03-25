@@ -15,7 +15,7 @@ Some basic unix-y config files that I like; some patchworked together, some hand
 
 ## Authors
 
-* **Scott Bassett** - *Initial work* - [sbassett29](https://github.com/sbassett29)
+* **Scott Bassett** - [sbassett29](https://github.com/sbassett29)
 
 ## License
 
