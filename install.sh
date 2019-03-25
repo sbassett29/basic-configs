@@ -1,4 +1,4 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
 ################################################################################
 # Author: sbassett@wikimedia.org
 # License: Apache 2 <https://opensource.org/licenses/Apache-2.0>
