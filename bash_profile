@@ -83,11 +83,11 @@ hp() {
     if [[ "$http_proxy" ]] || [[ "$https_proxy" ]]; then
         unset http_proxy
         unset https_proxy
-        echo -e "http(s)_proxy env vars unset!\n"
+        echo "http(s)_proxy env vars unset!"
     else
         export http_proxy=http://webproxy.eqiad.wmnet:8080
         export https_proxy=http://webproxy.eqiad.wmnet:8080
         echo -e "http(s)_proxy env vars set to webproxy values!\n"
     fi  
-    printenv |grep "http"
+    printenv |grep -e "http\(s\)\?_proxy"
 }
