@@ -87,7 +87,7 @@ hp() {
     else
         export http_proxy=http://webproxy.eqiad.wmnet:8080
         export https_proxy=http://webproxy.eqiad.wmnet:8080
-        echo -e "http(s)_proxy env vars set to webproxy.eqiad values!\n"
+        echo -e "http(s)_proxy env vars set to webproxy values!\n"
     fi  
     printenv |grep "http"
 }
