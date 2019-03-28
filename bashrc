@@ -1,6 +1,5 @@
 if [ "$PS1" ]; then
 
-	PS1=
 	PROMPT_COMMAND=build_prompt
 
 	build_prompt() {
@@ -32,7 +31,7 @@ if [ "$PS1" ]; then
 		B_GREY="\[\033[1;90m\]"
 		NORMAL="\[\033[0m\]"
 
-        # face exist status
+		# face exist status
 		if [ $status = 0 ]; then
 			face=" ${B_GREEN}( ^◡^)";
 		else
