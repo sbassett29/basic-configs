@@ -65,8 +65,8 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export EDITOR=vim
-export LESS=vim
-export MORE=vim
+export LESS=eFRX
+export MORE=eFRX
 
 # aliases
 alias ls='ls -GFh'
