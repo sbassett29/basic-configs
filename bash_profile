@@ -91,3 +91,6 @@ hp() {
     fi  
     printenv |grep -e "http\(s\)\?_proxy"
 }
+
+# source .bashrc
+. ~/.bashrc
