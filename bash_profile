@@ -75,6 +75,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias vi="vim"
 alias c="/usr/bin/clear && printf '\e[3J'"
+alias lg="git log --graph --decorate --oneline -n20"
 
 # user functions kept out of .bashrc
 
